@@ -111,7 +111,7 @@ function HeadNav({cart, dispatch, cartVisible }) {
                         ))
                     }
                     <Divider/>
-                    <div className="col-12">
+                    <div className={`col-12 ${cart.length === 0? 'd-none': 'd-block'}`}>
                         <button onClick={()=> clearCart()} className="w-100 rounded-0 btn btn-outline-dark">CLEAR</button>
                     </div>
                 </div>

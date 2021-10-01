@@ -80,7 +80,7 @@ const Products=({dispatch, products, loading, filtered, cart}) =>{
         let filter = filtered.filter((prod)=> e.includes(prod.pricegp))
         dispatch({
             type:"products/FILTER_PRODUCT",
-            payload: filter.length === 0? filtered :filter
+            payload: filter.length === 0? filtered.lenght === 0? products: filtered :filter
         })
     }
     
