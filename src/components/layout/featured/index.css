@@ -1,0 +1,32 @@
+.cont-top{
+    width: 100%;
+    height: inherit;
+    position: relative;
+}
+
+.f-label{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: -15px;
+}
+
+
+.atd{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 06px;
+}
+.atdm{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 06px;
+}
+
+.pab .atd{
+    display: none;
+}
+.pab:hover.pab .atd{
+    display: block;
+    transition: 1s;
+}

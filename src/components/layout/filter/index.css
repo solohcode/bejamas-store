@@ -1,0 +1,31 @@
+.prod-img{
+    width: 100%;
+    height: inherit;
+    position: relative;
+}
+
+.atc{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 06px;
+}
+.atcm{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 06px;
+}
+.prod-card .prod-img .p-label{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.prod-card .prod-img .atc{
+    display: none;
+}
+.prod-card:hover.prod-card .prod-img .atc{
+    display: block;
+    transition: 1s;
+}

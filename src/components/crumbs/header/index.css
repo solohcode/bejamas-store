@@ -1,0 +1,19 @@
+
+/* navbar styles  */
+.navbar{
+    width: 100%;
+    min-height: 70px;
+    background: #fff;
+    padding: 20px 40px 10px;
+}
+.btn-cart{
+    color: black;
+}
+.btn-cart:hover{
+    color: gray;
+    transition: 0.5s;
+}
+
+.pointer{
+    cursor: pointer;
+}
